@@ -1,16 +1,12 @@
 {
-  "name": "payments",
+  "name": "orders",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "ts-node-dev src/index.ts",
     "test": "jest --watchAll --no-cache",
-<<<<<<< HEAD
     "test:ci": "jest" 
-=======
-    "test:ci": "jest"
->>>>>>> 81fc28ab29b8a581901f6269503d9f83449c9d28
   },
   "jest": {
     "preset": "ts-jest",
@@ -35,7 +31,6 @@
     "mongoose": "^6.4.1",
     "mongoose-update-if-current": "^1.4.0",
     "node-nats-streaming": "^0.3.2",
-    "stripe": "^10.8.0",
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.7.4"
   },
